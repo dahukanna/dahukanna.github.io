@@ -184,14 +184,14 @@ a
   text-decoration: none;
 }
 
-p a
+.card-summary p a
   {
     color:rgba(51,51,51,.7);
     box-shadow:inset 0 -3px 0 rgba(0,0,255,.6)
     cursor: pointer;
     padding: 5% 5% 3% 5%;
   }
-  p a
+  .card-summary p a
   {
     color:#333;
     -webkit-transition:.25s ease;
@@ -200,7 +200,7 @@ p a
     border-bottom:0 solid #00f;
     box-shadow:inset 0 -3px 0 #00f
   }
-  p a:hover
+  .card-summary p a:hover
   {
     color:#fff;
     -webkit-transition:.25s ease;
